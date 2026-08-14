@@ -1,0 +1,28 @@
+{
+  "id": "gen1_battle_art_replacer",
+  "name": "Gen1 Battle Art Replacer",
+  "version": "0.1.0-alpha.12",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": ">=0.1.51 <2.0.0",
+  "priority": 12000,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [
+    "gen1_shiny_system@>=0.1.0-alpha.1 <0.2.0",
+    "gen1_widescreen_ui@>=0.1.0-alpha.11.3.3 <0.2.0",
+    "DRAMATIC_SHAPE"
+  ],
+  "conflicts": [
+    "BATTLE_ART_VOXEL_FORK"
+  ],
+  "affects_link": false,
+  "description": "Selectable Red, Blue, Yellow, Crystal, FRLG, Emerald, Platinum, HGSS, and Gen 5 front battle art for all 151 Pokemon, with supported animation, shiny art, and ROM fallback.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

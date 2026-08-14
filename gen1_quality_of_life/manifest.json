@@ -1,0 +1,35 @@
+{
+  "id": "gen1_quality_of_life",
+  "name": "Gen1 Unified Quality of Life",
+  "version": "0.1.0-alpha.6",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.71 <0.2.0",
+  "category": "QOL",
+  "priority": 11000,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [
+    "gen1_widescreen_ui@>=0.1.0-alpha.11.3.1 <0.2.0",
+    "DRAMATIC_SHAPE",
+    "BATTLE_ART_VOXEL_FORK",
+    "gen1_shiny_system",
+    "hgss_menu_icons",
+    "hgss_simple_follower",
+    "overworld_wild_spawns",
+    "yellow_legacy_changes"
+  ],
+  "conflicts": [
+    "quality_of_life",
+    "catch_helper",
+    "exp_share_modes"
+  ],
+  "affects_link": false,
+  "authors": [
+    "Invoker and Codex"
+  ],
+  "description": "Battle information, corrected Ultra Balls, explicit EXP rules, centered location banners, Field HMs, and reusable TMs."
+}

@@ -1,0 +1,32 @@
+# Audit scratch space contains cloned repositories, extracted game data,
+# emulator binaries, local saves, and machine-specific analysis artifacts.
+.audit/
+
+# Local dependency junction/cache. Dependencies are restored separately.
+node_modules/
+
+# Third-party helper binary archive; not a project-owned redistributable.
+AnimaEngine-v1.0.0-windows-x86_64.zip
+
+# Credentials and local environment files.
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+
+# ROMs, emulator saves, and local game state must never enter this repository.
+*.gb
+*.gbc
+*.gba
+*.nds
+*.rom
+*.sav
+*.srm
+
+# Generated caches and local diagnostics.
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db

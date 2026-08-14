@@ -1,0 +1,22 @@
+{
+  "id": "gen1_bill_ss_ticket_repair",
+  "name": "Gen1 Bill S.S. Ticket Repair",
+  "version": "0.1.1",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.78 <0.2.0",
+  "games": [
+    "gen1"
+  ],
+  "category": "FIX",
+  "priority": 100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "description": "Repairs interrupted Bill cell-separator saves, restores a missing completed-event ticket, and preserves vanilla Bill fallback under Echoes Beyond the Fog 2.2.0.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

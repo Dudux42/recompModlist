@@ -1,0 +1,33 @@
+{
+  "id": "kanto_living_encounters",
+  "name": "Kanto Living Encounters",
+  "version": "0.1.0-alpha.4",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.71 <0.2.0",
+  "category": "GAMEPLAY",
+  "priority": 12100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [
+    "hgss_simple_follower@>=0.1.0-alpha.18 <0.2.0",
+    "gen1_shiny_system@>=0.1.0-alpha.3 <0.2.0"
+  ],
+  "optional_dependencies": [
+    "gen1_balances@>=0.1.0-alpha.2 <0.2.0",
+    "DRAMATIC_SHAPE",
+    "BATTLE_ART_VOXEL_FORK"
+  ],
+  "conflicts": [
+    "overworld_wild_spawns"
+  ],
+  "affects_link": false,
+  "experimental": true,
+  "description": "Visible HGSS-style wild Pokemon that coexist with the live Gen 1 random encounter system.",
+  "authors": [
+    "Invoker",
+    "Codex"
+  ]
+}

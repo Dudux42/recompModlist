@@ -1,0 +1,25 @@
+{
+  "id": "gen1_character_sprite_replacer",
+  "name": "Gen1 Character Sprite Replacer",
+  "version": "0.1.0-alpha.8",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": ">=0.1.71 <2.0.0",
+  "priority": 12100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [
+    "gen1_widescreen_ui@>=0.1.0-alpha.14.4 <0.2.0",
+    "DRAMATIC_SHAPE"
+  ],
+  "conflicts": [],
+  "affects_link": false,
+  "description": "Selectable FRLG Red/Leaf player appearance, animated battle throws, and independently selectable FRLG enemy trainer portraits.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dramatic_shape_battle_shadow_patch",
+  "name": "Dramatic Shape Battle Sprite Lighting Patch",
+  "version": "0.2.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": ">=0.1.51 <2.0.0",
+  "priority": 12100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [
+    "DRAMATIC_SHAPE@>=1.8.0 <1.9.0"
+  ],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "affects_link": false,
+  "description": "Keeps Dramatic Shape 1.8.x flat battle sprites at their source/menu colors and prevents self-shadow banding while preserving cast shadows.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

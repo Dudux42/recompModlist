@@ -1,0 +1,26 @@
+{
+  "id": "gen1_widescreen_ui",
+  "name": "Gen1 Widescreen UI",
+  "version": "0.1.0-alpha.14.32",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "overhaul",
+  "game_version": ">=0.1.78 <0.2.0",
+  "games": [
+    "gen1"
+  ],
+  "category": "UI",
+  "priority": 10000,
+  "permissions": [
+    "engine_internals"
+  ],
+  "optional_dependencies": [
+    "hgss_menu_icons@>=0.1.0-alpha.4 <0.2.0",
+    "gen1_battle_art_replacer@>=0.1.0-alpha.5 <0.2.0"
+  ],
+  "affects_link": false,
+  "description": "Responsive PC, Pokemon Storage Provider API v1, vanilla Bag descriptions, title, dialogue, Pokemon screens, Battle HUD and Bag Provider API v2 without changing world geometry.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

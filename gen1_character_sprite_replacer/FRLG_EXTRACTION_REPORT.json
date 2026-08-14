@@ -1,0 +1,108 @@
+{
+  "source": "Game Boy Advance - Pokemon FireRed _ LeafGreen - Playable Characters - Player Sprites.png",
+  "source_dimensions": [
+    673,
+    638
+  ],
+  "source_sha256": "682bf2d6ea89c857f33eb118438cbfc325cf6f5a7c601eccc50c641f87d96f29",
+  "background_keys": [
+    [
+      34,
+      177,
+      76,
+      255
+    ],
+    [
+      255,
+      127,
+      39,
+      255
+    ]
+  ],
+  "outputs": {
+    "frlg_red_walk.png": {
+      "dimensions": [
+        16,
+        384
+      ],
+      "sha256": "c6e2f0483f3294e3398288fb1623239fb61a31be4feace3a2b988ed0dbec7719"
+    },
+    "frlg_red_bike.png": {
+      "dimensions": [
+        32,
+        384
+      ],
+      "sha256": "305c3a5a3a7835a3479bc6203a583b475d23a43c1813723626e031e3159b5b38"
+    },
+    "frlg_red_surf.png": {
+      "dimensions": [
+        32,
+        192
+      ],
+      "sha256": "70d7b2ee2398b702ce8fd3aef0674b8093b0fc8a550a502ab3470c22346b8429"
+    },
+    "frlg_red_front.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "df5799e60f8f707b1a86447cc32e55dc16b5a52f7ba69f9fd4c8e8b7d33c2377"
+    },
+    "frlg_red_back.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7db43af7a37e8d6f23d434a5c186f8d213104aa6ed7ab46dba03305af02f212a"
+    },
+    "frlg_red_main_menu.png": {
+      "dimensions": [
+        64,
+        96
+      ],
+      "sha256": "2f9d1de44c1ea3bf5b59b5e3d016706b6970967ded805202c6e09991a72e1ab8"
+    },
+    "frlg_leaf_walk.png": {
+      "dimensions": [
+        16,
+        384
+      ],
+      "sha256": "8f6d13f68a6c4abde11d21acf37544ded42680aca36dde3b9473b31f4e77fed7"
+    },
+    "frlg_leaf_bike.png": {
+      "dimensions": [
+        32,
+        384
+      ],
+      "sha256": "17dcd5bec753bec93010505c220ddf894308038ea75b09f027122716ac946fab"
+    },
+    "frlg_leaf_surf.png": {
+      "dimensions": [
+        32,
+        192
+      ],
+      "sha256": "40c8f31d5371521c985c483c82fa1919ba47ba1c64eb96b6eb07c5f826af7b9a"
+    },
+    "frlg_leaf_front.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b644ea001157878f9870fe1bd973873533bb0174882c6971f707f15b9098ce45"
+    },
+    "frlg_leaf_back.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "71e8dc3ab5e2da1dd750fb4b048ea83d8d212e9ae084f4af4fd31302de2dc208"
+    },
+    "frlg_leaf_main_menu.png": {
+      "dimensions": [
+        64,
+        96
+      ],
+      "sha256": "97a0a9a77822d65f860e415cfff78dcf20d2f03b010808bc6a7a97e8bb198963"
+    }
+  }
+}

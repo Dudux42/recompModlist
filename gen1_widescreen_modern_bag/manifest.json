@@ -1,0 +1,26 @@
+{
+  "id": "gen1_widescreen_modern_bag",
+  "name": "Widescreen Modern Bag",
+  "version": "0.1.0-alpha.5",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.71 <2.0.0",
+  "category": "UI",
+  "priority": 10200,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [
+    "gen1_widescreen_ui@>=0.1.0-alpha.14.25 <0.2.0"
+  ],
+  "optional_dependencies": [],
+  "conflicts": [
+    "modern_bag"
+  ],
+  "affects_link": false,
+  "description": "Six-pocket icon Bag with explicit START sorting, vanilla SELECT movement, large stacks, and engine-owned item actions.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gen1_widescreen_move_inspector",
+  "name": "Widescreen Move Inspector",
+  "version": "0.1.0-alpha.2",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.51 <2.0.0",
+  "category": "QOL",
+  "priority": 10100,
+  "affects_link": false,
+  "permissions": [],
+  "dependencies": [
+    "gen1_widescreen_ui@>=0.1.0-alpha.9 <0.2.0"
+  ],
+  "optional_dependencies": [],
+  "conflicts": [
+    "move_inspector"
+  ],
+  "description": "Shows live highlighted-move details through Gen1 Widescreen UI without changing battle mechanics.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

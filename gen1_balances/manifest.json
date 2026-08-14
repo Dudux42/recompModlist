@@ -1,0 +1,24 @@
+{
+  "id": "gen1_balances",
+  "name": "Gen1 Balances",
+  "version": "0.1.0-alpha.2",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.71 <0.2.0",
+  "category": "BALANCE",
+  "priority": 110,
+  "permissions": [],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [
+    "yellow_legacy_changes"
+  ],
+  "affects_link": true,
+  "experimental": false,
+  "description": "Live encounter tables plus selected base-stat, learnset, and additive evolution balance for Red, Blue, and Yellow.",
+  "authors": [
+    "Invoker",
+    "Codex"
+  ]
+}

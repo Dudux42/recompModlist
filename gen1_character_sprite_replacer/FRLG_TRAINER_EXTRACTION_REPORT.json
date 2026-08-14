@@ -1,0 +1,401 @@
+{
+  "source": "Game Boy Advance - Pokemon FireRed _ LeafGreen - Trainers & Non-Playable Characters - Trainers.png",
+  "source_dimensions": [
+    536,
+    1400
+  ],
+  "source_sha256": "45fdc7fb32b237b45d5b29b82f8f402215383ac577f78c1418f7d59cada46d43",
+  "matte": [
+    255,
+    127,
+    39,
+    255
+  ],
+  "outputs": {
+    "frlg_trainer_youngster.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "030de61b0919a4f40bdf0cfe3f2f28e73ce2bc829b69d1f02356623835d1c478"
+    },
+    "frlg_trainer_bug_catcher.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "094e0fbd46b0850bca9a21c23e37dfd54493770264d429d1e272494ffcfce2aa"
+    },
+    "frlg_trainer_lass.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "61ca6cca9ab78fd44a9f3b82c77b0817b1640307e6d0f566330961c1fa7bfa29"
+    },
+    "frlg_trainer_sailor.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "70e98b5dada71026e9f665263676d57b0a7274c31d0819a83e6887e77a94e371"
+    },
+    "frlg_trainer_camper.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a7f4479e2d7ffe90d3ab038fbe3c49df9896479574b882830092083d65e7a525"
+    },
+    "frlg_trainer_picnicker.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f9e73bb307bc2052541b255edb4b82d41c600b48cffa00348f8e6677d9269391"
+    },
+    "frlg_trainer_pokemaniac.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3f667ff46227c20848a4a1465ef8bbb8a57cedcb1adf5ae7f00f846e970fee7d"
+    },
+    "frlg_trainer_super_nerd.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "49ac9f385e9212a1beac45b74372d1991767173f3e0e95a7b0498b3e616b6d99"
+    },
+    "frlg_trainer_hiker.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "12147adddc77e0eac71a5c17aa89d3f08f8b9489d615a28421d963f371d46a9d"
+    },
+    "frlg_trainer_biker.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "beccaee78a05647517a7a5253290bb41d68c9123099641391818930b37cec962"
+    },
+    "frlg_trainer_burglar.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "4c7723a75029cb889a1b4f13552ba842a0ed4e4a044a90b7f00a5a4f1ad1a7ae"
+    },
+    "frlg_trainer_engineer.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "62b3fc25d8b62fc6c0184b228fca7a2bed8f16f7a775c0cfb39f02fe24893fa5"
+    },
+    "frlg_trainer_fisherman.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d92e4e2e1ca990d84c76e77bb946d3cbc9033b909b390d586b1f709d17f0c15f"
+    },
+    "frlg_trainer_swimmer_m.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "e8c7d50e2ae796d5f32572577735a4cbd2792268e5f94aeabc2fbc568bc67388"
+    },
+    "frlg_trainer_beauty.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2e1ee4b268eacf49ca5dd74c1303844d18e086c5f3e74654993df2cfc0b82414"
+    },
+    "frlg_trainer_cue_ball.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d39c01d435913a2fb4666fa0bac65f6a473cb82f3aee922d7f397cc2b42dd43d"
+    },
+    "frlg_trainer_gamer.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "27e055d4d0a1bafcaab2e9c747164e5b8df588e78cff9f54079b0d67e44e69de"
+    },
+    "frlg_trainer_swimmer_f.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d9ff0a2a47f04018639d8e4e3b0e7a18d30e57801d00b35e8574990f36832e03"
+    },
+    "frlg_trainer_psychic_m.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "043c651d5169fc7646c5f1ae8cb1c923e25d6472e27b19f1d7e1d14aa152decc"
+    },
+    "frlg_trainer_rocker.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "cb44206e2bcf39f5f4e81f26301374b360e3166a8c8aa946222b99e2493efa00"
+    },
+    "frlg_trainer_juggler.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "0fd106ca2c405e18d8df3f031c096dd18109b8cbd461ca9d6b062da3c38d60d4"
+    },
+    "frlg_trainer_tamer.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "42ad579bb09eedd24c43f80d072a2c4317f39ac8509d1a49fa211d4a6760717e"
+    },
+    "frlg_trainer_bird_keeper.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "0f869effc9d03d352eaa8eb7c133dbcbd75abaf42c5288551562adba2d8fef8f"
+    },
+    "frlg_trainer_black_belt.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fa30a743f658cfe1bffc8cc0d6319c4904de9ab92f4c2ad37d617adec7f73b52"
+    },
+    "frlg_trainer_scientist.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "840a9bb8f656616061f2ad617eaab545dcea8d1c7c8e54179641256099250083"
+    },
+    "frlg_trainer_rocket_grunt_m.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b20ef111bc6d77894fb6f416d1ad1591641a451293b4674766ab8f690ba2a1e6"
+    },
+    "frlg_trainer_cooltrainer_m.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8e80bffa73022533d7ce1a960bf2435a02dc804d82f12aa68bf8293c3b909fe6"
+    },
+    "frlg_trainer_cooltrainer_f.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d98477172e6bba829135514fbbeea1522af606914c3a5f175ae96b0567e12948"
+    },
+    "frlg_trainer_gentleman.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "50bfce5489b66fb810bd8892dbffe8881f8210f198c766dcf7bf2ee818ea86c7"
+    },
+    "frlg_trainer_channeler.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "064df2c4e3c198d138662f737e570c0081bb6f6a2c8c5ae266e2be65e05bd712"
+    },
+    "frlg_trainer_rival_early.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "712edfd80a7539d7ac5fcd5d3f7b9136b4b4ea262b9794377286890a4b357d08"
+    },
+    "frlg_trainer_rival_late.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "1b86ca85b3234137035426c6919249fcb7db144f9412b24a750e7a80c122c4a8"
+    },
+    "frlg_trainer_champion_rival.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "27b3dc97dc52b7c385c856ca747d8d647eba30a495101bda16b2e5aebc839a56"
+    },
+    "frlg_trainer_brock.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fe3eeb98c171ed83d3c84b164c002ec6c9b1235e37ac7ecb055d1e1fda267cbc"
+    },
+    "frlg_trainer_misty.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "99f9e611f2d78340e592f6c67ace872e23acae372066041b8ab211f2a8ffd7e0"
+    },
+    "frlg_trainer_lt_surge.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "ec8f1c295f7c8bdf1127e975dfebc0be2bef9e0df76d00fa29ab1cfe804704aa"
+    },
+    "frlg_trainer_erika.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "34e232fb36bfc1c54c5695c322a467af6ecf00d16894e503f265b75aacdf6237"
+    },
+    "frlg_trainer_koga.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "b7b9ce5d5cbcc1b64e7186b714163b13ce10c655c702c2ccf711a552408273e0"
+    },
+    "frlg_trainer_blaine.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "39408fada2fe196dfeb7e9a8640645a2196be214eef86494252f56f312b5f797"
+    },
+    "frlg_trainer_sabrina.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "321b60fa5cfa8799a704fac8c8ccf8a655f1fe5a3dabf73bbc0c4da71fcdc16c"
+    },
+    "frlg_trainer_giovanni.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "e082e7fcede88d7fc4195b20c105e4826106123768c35d2362c4317d115a81f7"
+    },
+    "frlg_trainer_lorelei.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d626c05e184fb285884da9a95ed5e1a52126d62a73ed1887d446cb8174cb0259"
+    },
+    "frlg_trainer_bruno.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fa363cd94723a08c64f16e31d891701e34f5302b90126f339907f9b7fc758884"
+    },
+    "frlg_trainer_agatha.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "43a53efb8f6d771907590100b71d34b495b009faa72f88f959b7adf2ffeed5ed"
+    },
+    "frlg_trainer_lance.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "5eabce487af6d87ca0eb537a8f2b54d88b5c5d4277c6887bcd531d6ced763c51"
+    },
+    "frlg_red_throw_1.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "23ed18fb3858a9095df88769d5570a6abf98b42f3329ec7d3906565a9c5a56ab"
+    },
+    "frlg_red_throw_2.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "a943f4bf8c3bca499fe238fa021619ecf153af46bb100fbda51567a585cda75d"
+    },
+    "frlg_red_throw_3.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d5ab1d5f20fadb89634d7b214bdb7f98d24bc67ebd666f89288eef5ccc768ca8"
+    },
+    "frlg_red_throw_4.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "0e8322a783db04325eaa0b38a49f291387103bcb67e87de2034898e12443fc22"
+    },
+    "frlg_red_throw_5.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8d933d816e95e03dad621958d97c1e8fc1a42d60214bbcaff2444591b94561ec"
+    },
+    "frlg_leaf_throw_1.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "8f488087196de7edd64bbcdeac054272e99ca966da307989be445d8a2dbcba1a"
+    },
+    "frlg_leaf_throw_2.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7f1abe5b8533556fa679e4fd85a27787e796f34a7c7cc46d8c5d81d384f119ed"
+    },
+    "frlg_leaf_throw_3.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "01182203718f498d50635784218caba596dbc4a30208e33e97f102804bcbec20"
+    },
+    "frlg_leaf_throw_4.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "594ba113c1b321532ce9dd357ba62294d9a21ff6d151d1cf12f5de65d34feb3e"
+    },
+    "frlg_leaf_throw_5.png": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "e6bb92cb7056b3660024041add6d33438efd5b8167801a44bcc098c27d7ea103"
+    }
+  }
+}

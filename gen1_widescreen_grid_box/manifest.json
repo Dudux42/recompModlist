@@ -1,0 +1,29 @@
+{
+  "id": "gen1_widescreen_grid_box",
+  "name": "Widescreen Grid Box",
+  "version": "0.1.0-alpha.1",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "game_version": ">=0.1.83 <0.2.0",
+  "games": [
+    "gen1"
+  ],
+  "category": "UI",
+  "priority": 10300,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [
+    "gen1_widescreen_ui@>=0.1.0-alpha.14.31 <0.2.0"
+  ],
+  "optional_dependencies": [],
+  "conflicts": [
+    "advanced_box_system"
+  ],
+  "affects_link": true,
+  "description": "Gen III-style dense Grid Box semantics with atomic party and PC movement, rendered by Gen1 Widescreen UI.",
+  "authors": [
+    "Invoker and Codex"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hgss_simple_follower",
+  "name": "HGSS Simple Follower",
+  "version": "0.1.0-alpha.18",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GAMEPLAY",
+  "game_version": ">=0.1.0 <2.0.0",
+  "priority": 12000,
+  "author": "Invoker & Codex",
+  "dependencies": [],
+  "optional_dependencies": [
+    "DRAMATIC_SHAPE",
+    "BATTLE_ART_VOXEL_FORK",
+    "overworld_wild_spawns",
+    "gen1_shiny_system@>=0.1.0-alpha.1 <0.2.0"
+  ],
+  "conflicts": [
+    "PokePCFollowers_VoxelMerge",
+    "FOLLOWERS_EX",
+    "hgss_overworld_sprite_pack"
+  ],
+  "permissions": [
+    "engine_internals"
+  ],
+  "description": "One selectable HGSS party follower plus a public provider for independent HGSS overworld Pokemon renderers."
+}
