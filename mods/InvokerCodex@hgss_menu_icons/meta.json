@@ -1,0 +1,19 @@
+{
+  "id": "hgss_menu_icons",
+  "title": "HGSS Menu Icons",
+  "author": "Invoker & Codex",
+  "summary": "Animated 32×32 normal and shiny HGSS-style menu icons for all 151 Gen 1 Pokémon.",
+  "version": "0.1.0-alpha.4",
+  "categories": ["ART", "UI"],
+  "tags": ["hgss", "menu icons", "shiny"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip",
+  "api": 2,
+  "game_version": ">=0.1.51 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "conflicts": ["new_icons", "unique_menu_icons"]
+}

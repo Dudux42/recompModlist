@@ -1,0 +1,18 @@
+{
+  "id": "gen1_widescreen_ui",
+  "title": "Gen1 Widescreen UI",
+  "author": "Dudux42",
+  "summary": "A responsive 16:9 presentation layer for Gen1Recomp menus, battles, dialogue, title flow, and provider-driven screens.",
+  "version": "0.1.0-alpha.15.12",
+  "categories": ["UI", "QOL"],
+  "tags": ["widescreen", "interface", "responsive"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
+  "api": 2,
+  "game_version": ">=0.1.78 <0.2.0",
+  "games": ["gen1"],
+  "profile": "overhaul",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"]
+}

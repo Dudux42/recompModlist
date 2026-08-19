@@ -1,0 +1,20 @@
+{
+  "id": "gen1_shiny_system",
+  "title": "Gen1 Shiny System",
+  "author": "Dudux42",
+  "summary": "Adds deterministic shiny state, rolls, palettes, persistence, and presentation to Gen 1.",
+  "version": "0.1.0-alpha.3",
+  "categories": ["GAMEPLAY", "ART"],
+  "tags": ["shiny", "pokemon", "sparkles"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip",
+  "api": 2,
+  "game_version": ">=0.1.51 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": true,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "dependencies": ["gen1_widescreen_ui@>=0.1.0-alpha.7.12 <0.2.0"],
+  "conflicts": ["SHINY_POKEMON"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hgss_simple_follower",
+  "title": "HGSS Simple Follower",
+  "author": "Invoker & Codex",
+  "summary": "Adds an animated HGSS-style overworld Pokémon follower with multiple positioning modes.",
+  "version": "0.1.0-alpha.24",
+  "categories": ["CONTENT", "ART", "QOL"],
+  "tags": ["hgss", "follower", "overworld"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip",
+  "api": 2,
+  "game_version": ">=0.1.0 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "conflicts": ["PokePCFollowers_VoxelMerge", "FOLLOWERS_EX", "hgss_overworld_sprite_pack"]
+}

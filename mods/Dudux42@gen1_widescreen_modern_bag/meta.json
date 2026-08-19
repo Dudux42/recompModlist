@@ -1,0 +1,20 @@
+{
+  "id": "gen1_widescreen_modern_bag",
+  "title": "Widescreen Modern Bag",
+  "author": "Dudux42",
+  "summary": "A pocketed, searchable modern inventory presented through Gen1 Widescreen UI.",
+  "version": "0.1.0-alpha.5",
+  "categories": ["UI", "QOL"],
+  "tags": ["widescreen", "bag", "inventory"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
+  "api": 2,
+  "game_version": ">=0.1.71 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "dependencies": ["gen1_widescreen_ui@>=0.1.0-alpha.14.25 <0.2.0"],
+  "conflicts": ["modern_bag"]
+}

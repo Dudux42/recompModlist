@@ -1,0 +1,20 @@
+{
+  "id": "gen1_widescreen_move_inspector",
+  "title": "Widescreen Move Inspector",
+  "author": "Dudux42",
+  "summary": "Adds detailed move, type, power, accuracy, PP, STAB, and matchup information to battle selection.",
+  "version": "0.1.0-alpha.2",
+  "categories": ["UI", "QOL"],
+  "tags": ["widescreen", "moves", "battle"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
+  "api": 2,
+  "game_version": ">=0.1.51 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": [],
+  "dependencies": ["gen1_widescreen_ui@>=0.1.0-alpha.9 <0.2.0"],
+  "conflicts": ["move_inspector"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gen1_widescreen_pokedex",
+  "title": "Widescreen Pokédex",
+  "author": "Dudux42",
+  "summary": "A responsive master-detail Pokédex with research, habitat, evolution, and move information.",
+  "version": "0.1.0-alpha.7",
+  "categories": ["UI", "QOL"],
+  "tags": ["widescreen", "pokedex", "research"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
+  "api": 2,
+  "game_version": ">=0.1.71 <2.0.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "dependencies": ["gen1_widescreen_ui@>=0.1.0-alpha.14.7 <0.2.0"],
+  "conflicts": ["pokedex_plus"]
+}

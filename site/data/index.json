@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-19T22:15:39.217Z",
+  "count": 15,
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT",
+    "BALANCE",
+    "ART",
+    "AUDIO",
+    "UI",
+    "QOL",
+    "TRANSLATION",
+    "TOTAL_CONVERSION",
+    "LIBRARY",
+    "TOOL",
+    "OTHER"
+  ],
+  "mods": [
+    {
+      "folder": "Dudux42@dramatic_shape_battle_shadow_patch",
+      "id": "dramatic_shape_battle_shadow_patch",
+      "title": "Dramatic Shape Battle Sprite Lighting Patch",
+      "author": "Dudux42",
+      "summary": "Keeps flat battle sprites neutrally lit and removes self-shadow banding in Dramatic Shape 1.8.x.",
+      "version": "0.2.0",
+      "categories": [
+        "ART",
+        "QOL"
+      ],
+      "tags": [
+        "battle",
+        "lighting",
+        "dramatic shape"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip",
+      "api": 2,
+      "game_version": ">=0.1.51 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "DRAMATIC_SHAPE@>=1.8.0 <1.9.0"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@dramatic_shape_battle_shadow_patch/description.md",
+      "latest": {
+        "version": "0.2.0",
+        "zip": {
+          "name": "dramatic_shape_battle_shadow_patch_v0.2.0.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_balances",
+      "id": "gen1_balances",
+      "title": "Gen1 Balances",
+      "author": "Dudux42",
+      "summary": "A focused rebalance of encounters, species stats, learnsets, and trade evolutions for Red, Blue, and Yellow.",
+      "version": "0.1.0-alpha.2",
+      "categories": [
+        "BALANCE",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "encounters",
+        "learnsets",
+        "evolutions"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_balances_v0.1.0-alpha.2.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "experimental": true,
+      "permissions": [],
+      "conflicts": [
+        "yellow_legacy_changes"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_balances/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.2",
+        "zip": {
+          "name": "gen1_balances_v0.1.0-alpha.2.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_balances_v0.1.0-alpha.2.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_battle_art_replacer",
+      "id": "gen1_battle_art_replacer",
+      "title": "Gen1 Battle Art Replacer",
+      "author": "Dudux42",
+      "summary": "Selectable static and animated Pokémon battle art from Generations 1 through 5 for all 151 species.",
+      "version": "0.1.0-alpha.12",
+      "categories": [
+        "ART"
+      ],
+      "tags": [
+        "battle",
+        "sprites",
+        "animation"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
+      "api": 2,
+      "game_version": ">=0.1.51 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "BATTLE_ART_VOXEL_FORK"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_battle_art_replacer/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.12",
+        "zip": {
+          "name": "gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_bill_ss_ticket_repair",
+      "id": "gen1_bill_ss_ticket_repair",
+      "title": "Gen1 Bill S.S. Ticket Repair",
+      "author": "Dudux42",
+      "summary": "Repairs Bill's S.S. Ticket progression when loading affected Gen1Recomp saves.",
+      "version": "0.1.1",
+      "categories": [
+        "QOL",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "bill",
+        "ss ticket",
+        "save repair"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip",
+      "api": 2,
+      "game_version": ">=0.1.78 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_bill_ss_ticket_repair/description.md",
+      "latest": {
+        "version": "0.1.1",
+        "zip": {
+          "name": "gen1_bill_ss_ticket_repair_v0.1.1.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_character_sprite_replacer",
+      "id": "gen1_character_sprite_replacer",
+      "title": "Gen1 Character Sprite Replacer",
+      "author": "Dudux42",
+      "summary": "Replaces Gen 1 player and NPC presentation with selectable FireRed/LeafGreen-style character art.",
+      "version": "0.1.0-alpha.10",
+      "categories": [
+        "ART"
+      ],
+      "tags": [
+        "characters",
+        "overworld",
+        "frlg"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_character_sprite_replacer/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.10",
+        "zip": {
+          "name": "gen1_character_sprite_replacer_v0.1.0-alpha.10.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_shiny_system",
+      "id": "gen1_shiny_system",
+      "title": "Gen1 Shiny System",
+      "author": "Dudux42",
+      "summary": "Adds deterministic shiny state, rolls, palettes, persistence, and presentation to Gen 1.",
+      "version": "0.1.0-alpha.3",
+      "categories": [
+        "GAMEPLAY",
+        "ART"
+      ],
+      "tags": [
+        "shiny",
+        "pokemon",
+        "sparkles"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip",
+      "api": 2,
+      "game_version": ">=0.1.51 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "gen1_widescreen_ui@>=0.1.0-alpha.7.12 <0.2.0"
+      ],
+      "conflicts": [
+        "SHINY_POKEMON"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_shiny_system/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.3",
+        "zip": {
+          "name": "gen1_shiny_system_v0.1.0-alpha.3.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_quality_of_life",
+      "id": "gen1_quality_of_life",
+      "title": "Gen1 Unified Quality of Life",
+      "author": "Dudux42",
+      "summary": "A coordinated set of optional battle, field, encounter, and interface conveniences for Gen 1.",
+      "version": "0.1.0-alpha.7",
+      "categories": [
+        "QOL",
+        "UI",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "quality of life",
+        "battle",
+        "field"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "quality_of_life",
+        "catch_helper",
+        "exp_share_modes"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_quality_of_life/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.7",
+        "zip": {
+          "name": "gen1_quality_of_life_v0.1.0-alpha.7.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_widescreen_ui",
+      "id": "gen1_widescreen_ui",
+      "title": "Gen1 Widescreen UI",
+      "author": "Dudux42",
+      "summary": "A responsive 16:9 presentation layer for Gen1Recomp menus, battles, dialogue, title flow, and provider-driven screens.",
+      "version": "0.1.0-alpha.15.12",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "widescreen",
+        "interface",
+        "responsive"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
+      "api": 2,
+      "game_version": ">=0.1.78 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "overhaul",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_widescreen_ui/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.15.12",
+        "zip": {
+          "name": "gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "InvokerCodex@hgss_menu_icons",
+      "id": "hgss_menu_icons",
+      "title": "HGSS Menu Icons",
+      "author": "Invoker & Codex",
+      "summary": "Animated 32×32 normal and shiny HGSS-style menu icons for all 151 Gen 1 Pokémon.",
+      "version": "0.1.0-alpha.4",
+      "categories": [
+        "ART",
+        "UI"
+      ],
+      "tags": [
+        "hgss",
+        "menu icons",
+        "shiny"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip",
+      "api": 2,
+      "game_version": ">=0.1.51 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "new_icons",
+        "unique_menu_icons"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/InvokerCodex@hgss_menu_icons/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.4",
+        "zip": {
+          "name": "hgss_menu_icons_v0.1.0-alpha.4.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "InvokerCodex@hgss_simple_follower",
+      "id": "hgss_simple_follower",
+      "title": "HGSS Simple Follower",
+      "author": "Invoker & Codex",
+      "summary": "Adds an animated HGSS-style overworld Pokémon follower with multiple positioning modes.",
+      "version": "0.1.0-alpha.24",
+      "categories": [
+        "CONTENT",
+        "ART",
+        "QOL"
+      ],
+      "tags": [
+        "hgss",
+        "follower",
+        "overworld"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip",
+      "api": 2,
+      "game_version": ">=0.1.0 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "conflicts": [
+        "PokePCFollowers_VoxelMerge",
+        "FOLLOWERS_EX",
+        "hgss_overworld_sprite_pack"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/InvokerCodex@hgss_simple_follower/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.24",
+        "zip": {
+          "name": "hgss_simple_follower_v0.1.0-alpha.24.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@kanto_living_encounters",
+      "id": "kanto_living_encounters",
+      "title": "Kanto Living Encounters",
+      "author": "Dudux42",
+      "summary": "Shows encounter-table Pokémon as living overworld entities that can initiate standard battles on contact.",
+      "version": "0.1.0",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "overworld",
+        "encounters",
+        "kanto"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/kanto_living_encounters_v0.1.0.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "hgss_simple_follower@>=0.1.0-alpha.18 <0.2.0",
+        "gen1_shiny_system@>=0.1.0-alpha.3 <0.2.0"
+      ],
+      "conflicts": [
+        "overworld_wild_spawns"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@kanto_living_encounters/description.md",
+      "latest": {
+        "version": "0.1.0",
+        "zip": {
+          "name": "kanto_living_encounters_v0.1.0.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/kanto_living_encounters_v0.1.0.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_widescreen_grid_box",
+      "id": "gen1_widescreen_grid_box",
+      "title": "Widescreen Grid Box",
+      "author": "Dudux42",
+      "summary": "A responsive 5×4 Pokémon storage grid presented through Gen1 Widescreen UI.",
+      "version": "0.1.0-alpha.4",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "widescreen",
+        "pokemon storage",
+        "box"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
+      "api": 2,
+      "game_version": ">=0.1.83 <0.2.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "gen1_widescreen_ui@>=0.1.0-alpha.14.36 <0.2.0"
+      ],
+      "conflicts": [
+        "advanced_box_system"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_widescreen_grid_box/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.4",
+        "zip": {
+          "name": "gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_widescreen_modern_bag",
+      "id": "gen1_widescreen_modern_bag",
+      "title": "Widescreen Modern Bag",
+      "author": "Dudux42",
+      "summary": "A pocketed, searchable modern inventory presented through Gen1 Widescreen UI.",
+      "version": "0.1.0-alpha.5",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "widescreen",
+        "bag",
+        "inventory"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "gen1_widescreen_ui@>=0.1.0-alpha.14.25 <0.2.0"
+      ],
+      "conflicts": [
+        "modern_bag"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_widescreen_modern_bag/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.5",
+        "zip": {
+          "name": "gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_widescreen_move_inspector",
+      "id": "gen1_widescreen_move_inspector",
+      "title": "Widescreen Move Inspector",
+      "author": "Dudux42",
+      "summary": "Adds detailed move, type, power, accuracy, PP, STAB, and matchup information to battle selection.",
+      "version": "0.1.0-alpha.2",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "widescreen",
+        "moves",
+        "battle"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
+      "api": 2,
+      "game_version": ">=0.1.51 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [],
+      "dependencies": [
+        "gen1_widescreen_ui@>=0.1.0-alpha.9 <0.2.0"
+      ],
+      "conflicts": [
+        "move_inspector"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_widescreen_move_inspector/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.2",
+        "zip": {
+          "name": "gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
+      "folder": "Dudux42@gen1_widescreen_pokedex",
+      "id": "gen1_widescreen_pokedex",
+      "title": "Widescreen Pokédex",
+      "author": "Dudux42",
+      "summary": "A responsive master-detail Pokédex with research, habitat, evolution, and move information.",
+      "version": "0.1.0-alpha.7",
+      "categories": [
+        "UI",
+        "QOL"
+      ],
+      "tags": [
+        "widescreen",
+        "pokedex",
+        "research"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
+      "api": 2,
+      "game_version": ">=0.1.71 <2.0.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "gen1_widescreen_ui@>=0.1.0-alpha.14.7 <0.2.0"
+      ],
+      "conflicts": [
+        "pokedex_plus"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_widescreen_pokedex/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.7",
+        "zip": {
+          "name": "gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    }
+  ]
+}
