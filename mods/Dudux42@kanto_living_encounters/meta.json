@@ -7,7 +7,7 @@
   "categories": ["CONTENT", "GAMEPLAY"],
   "tags": ["overworld", "encounters", "kanto"],
   "repo": "https://github.com/Dudux42/recompModlist",
-  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/kanto_living_encounters_v0.1.0.zip",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/kanto_living_encounters_v0.1.0.zip",
   "api": 2,
   "game_version": ">=0.1.71 <0.2.0",
   "games": ["gen1"],

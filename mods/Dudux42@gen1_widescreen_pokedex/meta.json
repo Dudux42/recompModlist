@@ -7,7 +7,7 @@
   "categories": ["UI", "QOL"],
   "tags": ["widescreen", "pokedex", "research"],
   "repo": "https://github.com/Dudux42/recompModlist",
-  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
   "api": 2,
   "game_version": ">=0.1.71 <2.0.0",
   "games": ["gen1"],

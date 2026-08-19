@@ -4,7 +4,13 @@ Launcher-ready index and release archive for Dudux42's Gen1Recomp mods.
 
 ## Launcher feed
 
-After GitHub Pages deploys the `site/` directory, use:
+The launcher-compatible raw feed is:
+
+```text
+https://raw.githubusercontent.com/Dudux42/recompModlist/main/site/data/index.json
+```
+
+After GitHub Pages deploys the `site/` directory, the same feed is also available at:
 
 ```text
 https://dudux42.github.io/recompModlist/data/index.json

@@ -7,7 +7,7 @@
   "categories": ["ART"],
   "tags": ["battle", "sprites", "animation"],
   "repo": "https://github.com/Dudux42/recompModlist",
-  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
   "api": 2,
   "game_version": ">=0.1.51 <2.0.0",
   "games": ["gen1"],

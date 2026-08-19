@@ -7,7 +7,7 @@
   "categories": ["QOL", "GAMEPLAY"],
   "tags": ["bill", "ss ticket", "save repair"],
   "repo": "https://github.com/Dudux42/recompModlist",
-  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip",
   "api": 2,
   "game_version": ">=0.1.78 <0.2.0",
   "games": ["gen1"],

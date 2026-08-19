@@ -1,9 +1,9 @@
 name: Validate and deploy index
 on:
   push:
-    branches: [master]
+    branches: [main, master]
   pull_request:
-    branches: [master]
+    branches: [main, master]
   workflow_dispatch:
 permissions:
   contents: read

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T22:15:39.217Z",
+  "generated_at": "2026-08-19T22:20:50.632Z",
   "count": 15,
   "categories": [
     "GAMEPLAY",
@@ -34,7 +34,7 @@
         "dramatic shape"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip",
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
       "profile": "content",
@@ -51,7 +51,7 @@
         "version": "0.2.0",
         "zip": {
           "name": "dramatic_shape_battle_shadow_patch_v0.2.0.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/dramatic_shape_battle_shadow_patch_v0.2.0.zip"
         }
       },
       "update_check": "fixed",
@@ -74,7 +74,7 @@
         "evolutions"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_balances_v0.1.0-alpha.2.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_balances_v0.1.0-alpha.2.zip",
       "api": 2,
       "game_version": ">=0.1.71 <0.2.0",
       "games": [
@@ -93,7 +93,7 @@
         "version": "0.1.0-alpha.2",
         "zip": {
           "name": "gen1_balances_v0.1.0-alpha.2.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_balances_v0.1.0-alpha.2.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_balances_v0.1.0-alpha.2.zip"
         }
       },
       "update_check": "fixed",
@@ -115,7 +115,7 @@
         "animation"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
       "games": [
@@ -136,7 +136,7 @@
         "version": "0.1.0-alpha.12",
         "zip": {
           "name": "gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_battle_art_replacer_v0.1.0-alpha.12.zip"
         }
       },
       "update_check": "fixed",
@@ -159,7 +159,7 @@
         "save repair"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip",
       "api": 2,
       "game_version": ">=0.1.78 <0.2.0",
       "games": [
@@ -176,7 +176,7 @@
         "version": "0.1.1",
         "zip": {
           "name": "gen1_bill_ss_ticket_repair_v0.1.1.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_bill_ss_ticket_repair_v0.1.1.zip"
         }
       },
       "update_check": "fixed",
@@ -198,7 +198,7 @@
         "frlg"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip",
       "api": 2,
       "game_version": ">=0.1.71 <2.0.0",
       "games": [
@@ -216,7 +216,7 @@
         "version": "0.1.0-alpha.10",
         "zip": {
           "name": "gen1_character_sprite_replacer_v0.1.0-alpha.10.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_character_sprite_replacer_v0.1.0-alpha.10.zip"
         }
       },
       "update_check": "fixed",
@@ -239,7 +239,7 @@
         "sparkles"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip",
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
       "games": [
@@ -263,7 +263,7 @@
         "version": "0.1.0-alpha.3",
         "zip": {
           "name": "gen1_shiny_system_v0.1.0-alpha.3.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_shiny_system_v0.1.0-alpha.3.zip"
         }
       },
       "update_check": "fixed",
@@ -287,7 +287,7 @@
         "field"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip",
       "api": 2,
       "game_version": ">=0.1.71 <0.2.0",
       "games": [
@@ -310,7 +310,7 @@
         "version": "0.1.0-alpha.7",
         "zip": {
           "name": "gen1_quality_of_life_v0.1.0-alpha.7.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_quality_of_life_v0.1.0-alpha.7.zip"
         }
       },
       "update_check": "fixed",
@@ -333,7 +333,7 @@
         "responsive"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
       "api": 2,
       "game_version": ">=0.1.78 <0.2.0",
       "games": [
@@ -351,7 +351,7 @@
         "version": "0.1.0-alpha.15.12",
         "zip": {
           "name": "gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip"
         }
       },
       "update_check": "fixed",
@@ -374,7 +374,7 @@
         "shiny"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip",
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
       "games": [
@@ -396,7 +396,7 @@
         "version": "0.1.0-alpha.4",
         "zip": {
           "name": "hgss_menu_icons_v0.1.0-alpha.4.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/hgss_menu_icons_v0.1.0-alpha.4.zip"
         }
       },
       "update_check": "fixed",
@@ -420,7 +420,7 @@
         "overworld"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip",
       "api": 2,
       "game_version": ">=0.1.0 <2.0.0",
       "games": [
@@ -443,7 +443,7 @@
         "version": "0.1.0-alpha.24",
         "zip": {
           "name": "hgss_simple_follower_v0.1.0-alpha.24.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/hgss_simple_follower_v0.1.0-alpha.24.zip"
         }
       },
       "update_check": "fixed",
@@ -466,7 +466,7 @@
         "kanto"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/kanto_living_encounters_v0.1.0.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/kanto_living_encounters_v0.1.0.zip",
       "api": 2,
       "game_version": ">=0.1.71 <0.2.0",
       "games": [
@@ -490,7 +490,7 @@
         "version": "0.1.0",
         "zip": {
           "name": "kanto_living_encounters_v0.1.0.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/kanto_living_encounters_v0.1.0.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/kanto_living_encounters_v0.1.0.zip"
         }
       },
       "update_check": "fixed",
@@ -513,7 +513,7 @@
         "box"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
       "api": 2,
       "game_version": ">=0.1.83 <0.2.0",
       "games": [
@@ -537,7 +537,7 @@
         "version": "0.1.0-alpha.4",
         "zip": {
           "name": "gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip"
         }
       },
       "update_check": "fixed",
@@ -560,7 +560,7 @@
         "inventory"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
       "api": 2,
       "game_version": ">=0.1.71 <2.0.0",
       "games": [
@@ -584,7 +584,7 @@
         "version": "0.1.0-alpha.5",
         "zip": {
           "name": "gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_modern_bag_v0.1.0-alpha.5.zip"
         }
       },
       "update_check": "fixed",
@@ -607,7 +607,7 @@
         "battle"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
       "games": [
@@ -629,7 +629,7 @@
         "version": "0.1.0-alpha.2",
         "zip": {
           "name": "gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_move_inspector_v0.1.0-alpha.2.zip"
         }
       },
       "update_check": "fixed",
@@ -652,7 +652,7 @@
         "research"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
       "api": 2,
       "game_version": ">=0.1.71 <2.0.0",
       "games": [
@@ -676,7 +676,7 @@
         "version": "0.1.0-alpha.7",
         "zip": {
           "name": "gen1_widescreen_pokedex_v0.1.0-alpha.7.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip"
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_widescreen_pokedex_v0.1.0-alpha.7.zip"
         }
       },
       "update_check": "fixed",

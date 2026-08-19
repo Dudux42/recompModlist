@@ -7,7 +7,7 @@
   "categories": ["BALANCE", "GAMEPLAY"],
   "tags": ["encounters", "learnsets", "evolutions"],
   "repo": "https://github.com/Dudux42/recompModlist",
-  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/master/Releases/gen1_balances_v0.1.0-alpha.2.zip",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/gen1_balances_v0.1.0-alpha.2.zip",
   "api": 2,
   "game_version": ">=0.1.71 <0.2.0",
   "games": ["gen1"],
