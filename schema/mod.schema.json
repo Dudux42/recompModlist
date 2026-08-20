@@ -4,7 +4,7 @@
   "title": "Gen1Recomp mod index entry",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "author", "version", "categories", "repo", "downloadURL"],
+  "required": ["id", "title", "author", "version", "categories", "repo", "downloadURL", "released"],
   "properties": {
     "id": { "type": "string", "pattern": "^[A-Za-z0-9_-]+$", "maxLength": 64 },
     "title": { "type": "string", "minLength": 1, "maxLength": 80 },
@@ -16,6 +16,7 @@
     "tags": { "type": "array", "maxItems": 8, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9 -]{0,23}$" } },
     "repo": { "type": "string", "pattern": "^https://" },
     "downloadURL": { "type": "string", "pattern": "^https://.*\\.zip$" },
+    "released": { "type": "boolean" },
     "api": { "type": "integer", "minimum": 1, "maximum": 2 },
     "game_version": { "type": "string", "maxLength": 64 },
     "games": { "type": "array", "uniqueItems": true, "items": { "enum": ["red", "blue", "yellow", "gold", "gen1", "gen2", "all"] } },

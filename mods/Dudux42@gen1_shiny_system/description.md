@@ -1,3 +1,6 @@
 # Gen1 Shiny System
 
-Adds a single shared shiny-state owner for wild outcomes, Pokémon persistence, colors, sparkles, and compatible UI presentation. It is designed to avoid competing shiny rolls across other mods.
+Adds a single shared shiny-state owner for random encounters, fixed/static
+Pokemon, starters, Game Corner prizes, and scripted gifts. It preserves valid
+Gen 2 shiny DVs plus the shared compatibility flag, colors, sparkles, and
+companion-mod presentation without competing shiny generators.

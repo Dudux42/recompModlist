@@ -10,7 +10,7 @@ const permissions = new Set(['network', 'filesystem', 'engine_internals']);
 const games = new Set(['red', 'blue', 'yellow', 'gold', 'gen1', 'gen2', 'all']);
 const semver = /^\d+\.\d+\.\d+(?:[-+].*)?$/;
 const idPattern = /^[A-Za-z0-9_-]+$/;
-const allowedKeys = new Set(['id', 'title', 'author', 'summary', 'version', 'categories', 'tags', 'repo', 'downloadURL', 'api', 'game_version', 'games', 'profile', 'affects_link', 'experimental', 'permissions', 'dependencies', 'conflicts', 'license']);
+const allowedKeys = new Set(['id', 'title', 'author', 'summary', 'version', 'categories', 'tags', 'repo', 'downloadURL', 'released', 'api', 'game_version', 'games', 'profile', 'affects_link', 'experimental', 'permissions', 'dependencies', 'conflicts', 'license']);
 const errors = [];
 const seen = new Set();
 
@@ -38,9 +38,18 @@ for (const folder of readdirSync(modsRoot, { withFileTypes: true }).filter((entr
   if (meta.games?.some((value) => !games.has(value))) errors.push(`${folder}: invalid game target`);
   for (const key of ['repo', 'downloadURL']) { try { const url = new URL(meta[key]); if (url.protocol !== 'https:') throw new Error('not HTTPS'); } catch { errors.push(`${folder}: invalid ${key}`); } }
   if (!String(meta.downloadURL ?? '').endsWith('.zip')) errors.push(`${folder}: downloadURL must end in .zip`);
+  if (typeof meta.released !== 'boolean') errors.push(`${folder}: released must be true or false`);
   let releaseName = '';
-  try { releaseName = decodeURIComponent(new URL(meta.downloadURL).pathname.split('/').at(-1)); } catch {}
-  if (!existsSync(join(root, 'Releases', releaseName))) errors.push(`${folder}: missing Releases/${releaseName}`);
+  let releasePath = '';
+  try {
+    const urlPath = decodeURIComponent(new URL(meta.downloadURL).pathname);
+    releaseName = urlPath.split('/').at(-1);
+    releasePath = urlPath.includes('/Releases/Released/') ? 'Released'
+      : urlPath.includes('/Releases/Stable/') ? 'Stable' : '';
+  } catch {}
+  const expectedFolder = meta.released ? 'Released' : 'Stable';
+  if (releasePath !== expectedFolder) errors.push(`${folder}: downloadURL must use Releases/${expectedFolder}/`);
+  if (!existsSync(join(root, 'Releases', expectedFolder, releaseName))) errors.push(`${folder}: missing Releases/${expectedFolder}/${releaseName}`);
   const expectedName = `${meta.id}_v${meta.version}.zip`;
   if (releaseName !== expectedName) errors.push(`${folder}: release filename must be ${expectedName}`);
 }

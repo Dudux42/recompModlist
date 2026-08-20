@@ -12,13 +12,15 @@ for (const folder of readdirSync(modsRoot, { withFileTypes: true }).filter((entr
   const dir = join(modsRoot, folder);
   const meta = JSON.parse(readFileSync(join(dir, 'meta.json'), 'utf8'));
   const description = readFileSync(join(dir, 'description.md'), 'utf8');
-  mods.push({ folder, ...meta, thumbnail: null, description_url: `data/mods/${folder}/description.md`,
+  mods.push({ folder, ...meta, channel: meta.released ? 'released' : 'stable', thumbnail: null, description_url: `data/mods/${folder}/description.md`,
     summary: meta.summary || description.split(/\r?\n/).find((line) => line.trim() && !line.startsWith('#'))?.trim().slice(0, 200) || '',
     latest: { version: meta.version, zip: { name: decodeURIComponent(new URL(meta.downloadURL).pathname.split('/').at(-1)), url: meta.downloadURL } },
     update_check: 'fixed', downloads: null });
 }
 mods.sort((a, b) => a.title.localeCompare(b.title));
 const index = { schema_version: 1, generated_at: new Date().toISOString(), count: mods.length,
+  released_count: mods.filter((mod) => mod.released).length,
+  stable_count: mods.filter((mod) => !mod.released).length,
   categories: ['GAMEPLAY', 'CONTENT', 'BALANCE', 'ART', 'AUDIO', 'UI', 'QOL', 'TRANSLATION', 'TOTAL_CONVERSION', 'LIBRARY', 'TOOL', 'OTHER'], mods };
 
 if (checking) {

@@ -1,5 +1,15 @@
 # Dramatic Shape Battle Sprite Lighting Patch
 
-Neutralizes Dramatic Shape's lighting only while flat Pokémon battle cards are drawn. This removes diagonal self-shadow artifacts and keeps their colors consistent with menus while preserving arena lighting and cast shadows.
+Corrects flat Pokémon battle sprites rendered inside Dramatic Shape's 3D
+arenas.
+
+- Keeps each sprite's colors consistent with the same artwork in Party,
+  Summary, and other menus.
+- Removes diagonal self-shadow banding from paper-thin battle billboards.
+- Preserves Pokémon cast shadows, battle animation, terrain lighting, weather,
+  camera behavior, and Stadium-mode 3D models.
+
+The patch changes only Dramatic Shape's flat Pokémon billboard draw and makes
+no persistent save changes.
 
 Requires Dramatic Shape 1.8.x.
