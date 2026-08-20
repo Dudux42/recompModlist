@@ -1,0 +1,21 @@
+{
+  "id": "gen1_shiny_variations",
+  "title": "Gen1 Shiny Variations",
+  "author": "Dudux42",
+  "summary": "Per-species alternate Gen 5 shiny front designs rendered through Gen1 Battle Art Replacer.",
+  "version": "0.1.0-alpha.4",
+  "categories": ["ART"],
+  "tags": ["shiny", "sprites", "battle"],
+  "repo": "https://github.com/Dudux42/recompModlist",
+  "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_shiny_variations_v0.1.0-alpha.4.zip",
+  "released": false,
+  "api": 2,
+  "game_version": ">=0.2.11 <0.3.0",
+  "games": ["gen1"],
+  "profile": "content",
+  "affects_link": false,
+  "experimental": true,
+  "permissions": ["engine_internals"],
+  "dependencies": ["gen1_battle_art_replacer@>=0.1.0-alpha.13 <0.2.0"],
+  "conflicts": []
+}

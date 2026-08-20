@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T00:26:41.421Z",
-  "count": 15,
+  "generated_at": "2026-08-20T19:37:23.108Z",
+  "count": 16,
   "released_count": 3,
-  "stable_count": 12,
+  "stable_count": 13,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -67,7 +67,7 @@
       "title": "Gen1 Balances",
       "author": "Dudux42",
       "summary": "A focused rebalance of encounters, species stats, learnsets, and trade evolutions for Red, Blue, and Yellow.",
-      "version": "0.1.0-alpha.2",
+      "version": "0.1.0-alpha.3",
       "categories": [
         "BALANCE",
         "GAMEPLAY"
@@ -78,16 +78,16 @@
         "evolutions"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_balances_v0.1.0-alpha.2.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_balances_v0.1.0-alpha.3.zip",
       "released": false,
       "api": 2,
-      "game_version": ">=0.1.71 <0.2.0",
+      "game_version": ">=0.2.11 <0.3.0",
       "games": [
         "gen1"
       ],
       "profile": "content",
       "affects_link": true,
-      "experimental": true,
+      "experimental": false,
       "permissions": [],
       "conflicts": [
         "yellow_legacy_changes"
@@ -96,10 +96,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@gen1_balances/description.md",
       "latest": {
-        "version": "0.1.0-alpha.2",
+        "version": "0.1.0-alpha.3",
         "zip": {
-          "name": "gen1_balances_v0.1.0-alpha.2.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_balances_v0.1.0-alpha.2.zip"
+          "name": "gen1_balances_v0.1.0-alpha.3.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_balances_v0.1.0-alpha.3.zip"
         }
       },
       "update_check": "fixed",
@@ -111,7 +111,7 @@
       "title": "Gen1 Battle Art Replacer",
       "author": "Dudux42",
       "summary": "Selectable static and animated Pokémon battle art from Generations 1 through 5 for all 151 species.",
-      "version": "0.1.0-alpha.12",
+      "version": "0.1.0-alpha.13",
       "categories": [
         "ART"
       ],
@@ -121,7 +121,7 @@
         "animation"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_battle_art_replacer_v0.1.0-alpha.13.zip",
       "released": false,
       "api": 2,
       "game_version": ">=0.1.51 <2.0.0",
@@ -141,10 +141,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@gen1_battle_art_replacer/description.md",
       "latest": {
-        "version": "0.1.0-alpha.12",
+        "version": "0.1.0-alpha.13",
         "zip": {
-          "name": "gen1_battle_art_replacer_v0.1.0-alpha.12.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_battle_art_replacer_v0.1.0-alpha.12.zip"
+          "name": "gen1_battle_art_replacer_v0.1.0-alpha.13.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_battle_art_replacer_v0.1.0-alpha.13.zip"
         }
       },
       "update_check": "fixed",
@@ -175,7 +175,7 @@
         "gen1"
       ],
       "profile": "content",
-      "affects_link": true,
+      "affects_link": false,
       "permissions": [
         "engine_internals"
       ],
@@ -284,12 +284,58 @@
       "downloads": null
     },
     {
+      "folder": "Dudux42@gen1_shiny_variations",
+      "id": "gen1_shiny_variations",
+      "title": "Gen1 Shiny Variations",
+      "author": "Dudux42",
+      "summary": "Per-species alternate Gen 5 shiny front designs rendered through Gen1 Battle Art Replacer.",
+      "version": "0.1.0-alpha.4",
+      "categories": [
+        "ART"
+      ],
+      "tags": [
+        "shiny",
+        "sprites",
+        "battle"
+      ],
+      "repo": "https://github.com/Dudux42/recompModlist",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_shiny_variations_v0.1.0-alpha.4.zip",
+      "released": false,
+      "api": 2,
+      "game_version": ">=0.2.11 <0.3.0",
+      "games": [
+        "gen1"
+      ],
+      "profile": "content",
+      "affects_link": false,
+      "experimental": true,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "gen1_battle_art_replacer@>=0.1.0-alpha.13 <0.2.0"
+      ],
+      "conflicts": [],
+      "channel": "stable",
+      "thumbnail": null,
+      "description_url": "data/mods/Dudux42@gen1_shiny_variations/description.md",
+      "latest": {
+        "version": "0.1.0-alpha.4",
+        "zip": {
+          "name": "gen1_shiny_variations_v0.1.0-alpha.4.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_shiny_variations_v0.1.0-alpha.4.zip"
+        }
+      },
+      "update_check": "fixed",
+      "downloads": null
+    },
+    {
       "folder": "Dudux42@gen1_quality_of_life",
       "id": "gen1_quality_of_life",
       "title": "Gen1 Unified Quality of Life",
       "author": "Dudux42",
       "summary": "A coordinated set of optional battle, field, encounter, and interface conveniences for Gen 1.",
-      "version": "0.1.0-alpha.7",
+      "version": "0.1.0-alpha.9",
       "categories": [
         "QOL",
         "UI",
@@ -301,15 +347,15 @@
         "field"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_quality_of_life_v0.1.0-alpha.7.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_quality_of_life_v0.1.0-alpha.9.zip",
       "released": false,
       "api": 2,
-      "game_version": ">=0.1.71 <0.2.0",
+      "game_version": ">=0.2.11 <0.3.0",
       "games": [
         "gen1"
       ],
       "profile": "content",
-      "affects_link": true,
+      "affects_link": false,
       "experimental": true,
       "permissions": [
         "engine_internals"
@@ -323,10 +369,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@gen1_quality_of_life/description.md",
       "latest": {
-        "version": "0.1.0-alpha.7",
+        "version": "0.1.0-alpha.9",
         "zip": {
-          "name": "gen1_quality_of_life_v0.1.0-alpha.7.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_quality_of_life_v0.1.0-alpha.7.zip"
+          "name": "gen1_quality_of_life_v0.1.0-alpha.9.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_quality_of_life_v0.1.0-alpha.9.zip"
         }
       },
       "update_check": "fixed",
@@ -338,7 +384,7 @@
       "title": "Gen1 Widescreen UI",
       "author": "Dudux42",
       "summary": "A responsive 16:9 presentation layer for Gen1Recomp menus, battles, dialogue, title flow, and provider-driven screens.",
-      "version": "0.1.0-alpha.15.12",
+      "version": "0.1.0-alpha.15.13",
       "categories": [
         "UI",
         "QOL"
@@ -349,10 +395,10 @@
         "responsive"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_ui_v0.1.0-alpha.15.13.zip",
       "released": false,
       "api": 2,
-      "game_version": ">=0.1.78 <0.2.0",
+      "game_version": ">=0.2.11 <0.3.0",
       "games": [
         "gen1"
       ],
@@ -366,10 +412,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@gen1_widescreen_ui/description.md",
       "latest": {
-        "version": "0.1.0-alpha.15.12",
+        "version": "0.1.0-alpha.15.13",
         "zip": {
-          "name": "gen1_widescreen_ui_v0.1.0-alpha.15.12.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_ui_v0.1.0-alpha.15.12.zip"
+          "name": "gen1_widescreen_ui_v0.1.0-alpha.15.13.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_ui_v0.1.0-alpha.15.13.zip"
         }
       },
       "update_check": "fixed",
@@ -477,7 +523,7 @@
       "title": "Kanto Living Encounters",
       "author": "Dudux42",
       "summary": "Shows encounter-table Pokémon as living overworld entities that can initiate standard battles on contact.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "categories": [
         "CONTENT",
         "GAMEPLAY"
@@ -488,15 +534,15 @@
         "kanto"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/kanto_living_encounters_v0.1.1.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/kanto_living_encounters_v0.1.2.zip",
       "released": false,
       "api": 2,
-      "game_version": ">=0.1.71 <0.2.0",
+      "game_version": ">=0.2.11 <0.3.0",
       "games": [
         "gen1"
       ],
       "profile": "content",
-      "affects_link": true,
+      "affects_link": false,
       "permissions": [
         "engine_internals"
       ],
@@ -511,10 +557,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@kanto_living_encounters/description.md",
       "latest": {
-        "version": "0.1.1",
+        "version": "0.1.2",
         "zip": {
-          "name": "kanto_living_encounters_v0.1.1.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/kanto_living_encounters_v0.1.1.zip"
+          "name": "kanto_living_encounters_v0.1.2.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/kanto_living_encounters_v0.1.2.zip"
         }
       },
       "update_check": "fixed",
@@ -526,7 +572,7 @@
       "title": "Widescreen Grid Box",
       "author": "Dudux42",
       "summary": "A responsive 5×4 Pokémon storage grid presented through Gen1 Widescreen UI.",
-      "version": "0.1.0-alpha.4",
+      "version": "0.1.0-alpha.5",
       "categories": [
         "UI",
         "QOL"
@@ -537,21 +583,21 @@
         "box"
       ],
       "repo": "https://github.com/Dudux42/recompModlist",
-      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
+      "downloadURL": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_grid_box_v0.1.0-alpha.5.zip",
       "released": false,
       "api": 2,
-      "game_version": ">=0.1.83 <0.2.0",
+      "game_version": ">=0.2.11 <0.3.0",
       "games": [
         "gen1"
       ],
       "profile": "content",
-      "affects_link": false,
+      "affects_link": true,
       "experimental": true,
       "permissions": [
         "engine_internals"
       ],
       "dependencies": [
-        "gen1_widescreen_ui@>=0.1.0-alpha.14.36 <0.2.0"
+        "gen1_widescreen_ui@>=0.1.0-alpha.15.13 <0.2.0"
       ],
       "conflicts": [
         "advanced_box_system"
@@ -560,10 +606,10 @@
       "thumbnail": null,
       "description_url": "data/mods/Dudux42@gen1_widescreen_grid_box/description.md",
       "latest": {
-        "version": "0.1.0-alpha.4",
+        "version": "0.1.0-alpha.5",
         "zip": {
-          "name": "gen1_widescreen_grid_box_v0.1.0-alpha.4.zip",
-          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_grid_box_v0.1.0-alpha.4.zip"
+          "name": "gen1_widescreen_grid_box_v0.1.0-alpha.5.zip",
+          "url": "https://raw.githubusercontent.com/Dudux42/recompModlist/main/Releases/Stable/gen1_widescreen_grid_box_v0.1.0-alpha.5.zip"
         }
       },
       "update_check": "fixed",
